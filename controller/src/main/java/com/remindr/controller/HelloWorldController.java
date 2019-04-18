@@ -9,6 +9,8 @@ import java.util.logging.Logger;
 
 public class HelloWorldController extends HttpServlet {
 
+	private static final long serialVersionUID = 1L;
+	
 	private Logger logger = Logger.getLogger(HelloWorldController.class.getName());
 
 	@Override

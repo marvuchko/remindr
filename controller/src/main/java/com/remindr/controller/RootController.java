@@ -9,11 +9,13 @@ import java.util.logging.Logger;
 
 public class RootController extends HttpServlet {
 
-    private Logger logger = Logger.getLogger(RootController.class.getName());
+	private static final long serialVersionUID = -5834628457261939423L;
+	
+	private Logger logger = Logger.getLogger(RootController.class.getName());
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         logger.info("Home page visited!");
-        req.getRequestDispatcher("index.jsp").forward(req, resp);
+        req.getRequestDispatcher("/index.jsp").forward(req, resp);
     }
 }
