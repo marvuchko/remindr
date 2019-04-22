@@ -15,7 +15,7 @@ public class RootController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        logger.info("Home page visited!");
+        logger.info("Landing page visited from: " + req.getRemoteAddr());
         req.getRequestDispatcher("/index.jsp").forward(req, resp);
     }
 }

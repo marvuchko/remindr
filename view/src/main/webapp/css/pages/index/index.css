@@ -1,138 +1,22 @@
 body {
 	background-image:
-		url("https://pantheragroup.com/wp-content/uploads/2016/06/material-design-background-e1505759203405.jpg");
+		url("../../../assets/image/background.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-.index-landing-container {
-	width: 100%;
-}
-
-/******************* Form *******************/
-.index-form-container {
-	width: 300px;
-	margin: 0;
-	float: right;
-	background-color: rgb(255, 255, 255);
+	overflow: hidden;
 }
 
 .index-container {
-	width: 100vw;
 	height: 100vh;
-	position: relative;
-	background-color: rgba(32, 32, 32, 0.25);
+	background-color: rgba(52, 52, 52, 0.05);
 }
 
-.index-container-middle {
-	width: 800px;
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	background-color: rgb(255, 255, 255);
+.index-text {
+	font-family: Avenir !important;
+	color: #8E24AA !important;
+	font-size: 16px;
 }
 
-body {
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-form {
-	border: none;
-}
-
-input[type=text], input[type=password] {
-	width: 100%;
-	padding: 12px 20px;
-	margin: 8px 0;
-	display: inline-block;
-	border: 1px solid #ccc;
-	box-sizing: border-box;
-}
-
-.index-smooth-text {
-	font-family: Avenir;
-	-webkit-text-size-adjust: 100%;
-	-webkit-font-smoothing: antialiased;
-}
-
-.index-password-reset-link {
-	color: #BA68C8;
-}
-
-.index-remember-me {
-	color: #4A148C;
-}
-
-button {
-	background-color: #6A1B9A;
-	color: white;
-	padding: 14px 20px;
-	margin: 8px 0;
-	border: none;
-	cursor: pointer;
-	width: 100%;
-}
-
-button:hover {
-	opacity: 0.8;
-}
-
-.imgcontainer {
-	text-align: center;
-	margin: 24px 0 12px 0;
-}
-
-.avatar {
-	width: 40%;
-	border-radius: 50%;
-}
-
-.container {
-	padding: 16px;
-}
-
-span.psw {
-	float: right;
-	padding-top: 16px;
-}
-
-/******************* Logo *******************/
-.index-container-outher-centered-vertically {
-	width: 500px;
-	height: 491.594px;
-	float: left;
-	position: relative;
-	margin: 0;
-	border-right: 1.5px solid #f1f1f1;
-	background-color: rgb(255, 255, 255);
-}
-
-.index-container-inner-centered-vertically {
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	background-color: rgb(255, 255, 255);
-}
-
-@media screen and (max-width: 400px) {
-	
-	.index-container-middle {
-		width: 300px;
-	}
-	
-	.index-container-outher-centered-vertically {
-		display: none;
-	}
-	
-	span.psw {
-		display: block;
-		float: none;
-	}
-	
+a {
+	text-decoration: none;
 }
